@@ -1,5 +1,5 @@
 <script>
-document.getElementById('text').addEventListener("click", loadKey);
+document.getElementById("text").addEventListener("click",loadKey);
 function loadKey(){
         var url = window.location.href ,
   params = url.split('?')[1].split('&'),
